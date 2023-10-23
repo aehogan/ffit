@@ -1,0 +1,29 @@
+
+steps 100
+output_freq 10
+
+es off
+lj off
+phahst on
+
+#type_map He 1
+#lj_sig 1 1.0
+#lj_eps 1 100.0
+
+type_map He 1
+lj_sig 1 2.38376
+lj_eps 1 4.68451
+c6 1 1.40716
+c8 1 11.13635
+c10 1 107.964
+
+max_energy 10
+
+
+data_file he.data
+!data_file he_shifted.data
+
+!comment
+#comment
+
+
